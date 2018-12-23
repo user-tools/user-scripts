@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 
-base=mainlibs
 load ../init
+base="baseline-4:mainlibs"
 
 setup()
 {
@@ -100,6 +100,7 @@ setup()
 U_S=$BATS_CWD . $BATS_CWD/tools/sh/init.sh &&
 source '$main_inc' &&
 try_exec_func mytest_function
+
 EOM
     )"
   diag "Output: ${lines[0]}"

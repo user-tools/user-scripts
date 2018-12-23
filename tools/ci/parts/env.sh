@@ -14,7 +14,7 @@ export gawk=${gawk:-awk}
 export gstat=${gstat:-stat}
 export guniq=${guniq:-uniq}
 
-. $PWD/tools/sh/parts/env.sh
+. $PWD/tools/sh/parts/env-0.sh
 
 #set -e
 #

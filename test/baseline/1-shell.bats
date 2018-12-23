@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-base=shell-baseline
+base='baseline-1:shell'
 
 
 @test "$base: LOG (normal mode, no debug, verbosity < 7)" {

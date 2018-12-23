@@ -1,6 +1,6 @@
 #!/bin/sh
 
 export_stage before-cache before_cache && announce_stage
-rm -f $HOME/.cache/pip/log/debug.log
+. ./tools/ci/parts/before-cache.sh
 
 . $ci_util/deinit.sh
